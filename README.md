@@ -3,17 +3,17 @@ It is a binary classification which tells whether the image is having vada pav i
 Model is build with transfer learning using VGG19 and keras (tensorflow as backend).
 
 ## usage 
-open vada_pav.ipynb in jupyter notebook
+)open [vada_pav.ipynb](https://github.com/jaisanant0/vada_pav_classification/blob/master/vada_pav.ipynb) in jupyter notebook
 
 ## Data collection
 
 1. Collected the images of vada pav from google and used [Fatkun batch download image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) chrome extension to download images in bulk.
-2. For no vada pav collected images of pet, people, furniture, houses and group of people.
+2. For no vada pav collected images of pet, people, furnitures, houses and group of people.
 
  - Copied all the vada pav images in a single folder.
  - Copied all the non vada pav images in another folder.
 
-Renamed the images as 1.png, 2.png....... with the help of rename_images.py.
+Renamed the images as 1.png, 2.png....... with the help of [rename_images.py](https://github.com/jaisanant0/vada_pav_classification/blob/master/rename_images.py).
 
 NOTE :
 
@@ -30,3 +30,7 @@ Keras also provides feature to split the data into training and validation sets 
 ## Model Construction flow
 
 Data Collection -> Augmentation -> VGG19 pretrained download -> Exclude fullyconnected layer -> Addition of own fully connected layer -> Model commpile -> Model fit generator -> Plotting accurracy and loss 
+
+## Model accuracy and loss 
+
+ ![alt text](https://github.com/jaisanant0/vada_pav_classification/blob/master/vada_pav.ipynb)
