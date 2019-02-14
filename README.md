@@ -5,6 +5,9 @@ Model is build with transfer learning using VGG19 and keras (tensorflow as backe
 ## usage 
 open [vada_pav.ipynb](https://github.com/jaisanant0/vada_pav_classification/blob/master/vada_pav.ipynb) in jupyter notebook
 
+NOTE :
+For running the notebook edit the path of image directory in notebook's dataset_path variable.
+
 ## Data collection
 
 1. Collected the images of vada pav from google and used [Fatkun batch download image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) chrome extension to download images in bulk.
@@ -13,6 +16,12 @@ open [vada_pav.ipynb](https://github.com/jaisanant0/vada_pav_classification/blob
  - Copied all the vada pav images in a single folder.
  - Copied all the non vada pav images in another folder.
 
+ - Total Image data collected :
+ 
+      a. Vada pav     : 547
+
+      b. Not vada pav : 547
+  
 Renamed the images as 1.png, 2.png....... with the help of [rename_images.py](https://github.com/jaisanant0/vada_pav_classification/blob/master/rename_images.py).
 
 NOTE :
